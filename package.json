@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AARINSAHAI/AARIN-NODE-CHATAPP/issues"
   },
-  "homepage": "https://github.com/AARINSAHAI/AARIN-NODE-CHATAPP#readme"
+  "homepage": "https://github.com/AARINSAHAI/AARIN-NODE-CHATAPP#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
