@@ -6,10 +6,10 @@
 .main{
     background: cadetblue;
     margin: auto;
-    margin-top: 70px;
     width: 30%; 
     height: 75vh;
-    border-radius: 20px
+    border-radius: 20px;
+    margin-bottom: 40px;
 }
 .title{
     display: flex;
