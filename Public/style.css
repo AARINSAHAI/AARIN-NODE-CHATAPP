@@ -9,7 +9,7 @@
     width: 30%; 
     height: 75vh;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-top: 100px;
 }
 .title{
     display: flex;
@@ -33,4 +33,67 @@
     width: 100%;
     height: 100%;
     overflow-y: auto;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    padding: 10px;
+}
+.user_join{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background: #dbdbdb;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.outgoing_msg p{
+    background-color: #dfdddd;
+    width: 100%;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    color: black;
+}
+.outgoing_msg{
+    width: max-content;
+    max-width: 40%;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: auto;
+    border-radius: 20px;
+}
+.incoming_msg{
+    width: max-content;
+    max-width: 40%;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.incoming_msg p{
+    background-color: #15a1c4;
+    width: 100%;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.incoming_msg h5{
+    color: #868585;
+    padding-left: 10px;
+    font-size: xx-small;
+}
+.chatbox textarea{
+    
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    font-size: 1;
+    margin-top: 3px;
+
+}
+textarea::-webkit-scrollbar{
+    width: 0px;
 }
