@@ -12,7 +12,14 @@ app.get('/',(req,res) => {
 const io = require("socket.io")(server);
 
 io.on('connection', (socket)=>{
-    console.log(socket.id);
+
+    socket.on('user-joined', (username)=> {
+        io.emit('user-connected', username);
+        socket.on('outgoing_msg', (msg_data)=>{
+            socket.broadcast.emit("incoming_msg", (msg_data));
+        })
+
+    })
 });
 server.listen(PORT, function() {
     console.log("Server started successfully at port"+PORT)
