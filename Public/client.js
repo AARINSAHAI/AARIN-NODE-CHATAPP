@@ -7,7 +7,7 @@ socket.emit('user-joined', username);
 socket.on('user-connected', (users)=> {
     var joining_div = document.createElement('div');
     joining_div.classList.add('user_join');
-    joining_div.innerHTML = `<p><strong> ${users}</strong> has joined</p>`;
+    joining_div.innerHTML = `<center><p><strong> ${users}</strong> has joined</p></center>`;
     document.getElementById('texts').appendChild(joining_div);
     console.log("user_join")
 });

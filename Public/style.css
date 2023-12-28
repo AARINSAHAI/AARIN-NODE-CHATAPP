@@ -39,6 +39,7 @@
     padding-right: 10px;
     background-color: #dbdddd;
     color: black;
+    text-align: center;
 }
 .chat_area{
     border: 1px solid rgb(128,128,128);
@@ -50,7 +51,6 @@
     padding-bottom: 15px;
     padding: 10px;
 }
-
 .outgoing_msg{
     margin-left: auto;
     max-width: max-content;
