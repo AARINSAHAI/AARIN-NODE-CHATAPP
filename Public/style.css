@@ -28,6 +28,18 @@
     height: 65%;
     padding: 5px;
 }
+.user_join{
+    max-width: max-content;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-left-radius: 18px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #dbdddd;
+    color: black;
+}
 .chat_area{
     border: 1px solid rgb(128,128,128);
     background: black;
@@ -37,10 +49,8 @@
     border-radius: 5px;
     padding-bottom: 15px;
     padding: 10px;
-    position: relative;
 }
-.user_join{
-}
+
 .outgoing_msg{
     margin-left: auto;
     max-width: max-content;
@@ -71,7 +81,6 @@
     
     background-color: black; 
     padding: 5px;
-    align-self: center;
 
 }
 .chatbox input{

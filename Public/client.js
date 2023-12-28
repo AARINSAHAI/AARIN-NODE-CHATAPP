@@ -1,5 +1,4 @@
 const socket = io();
-const { Server } = require("socket.io");
 var username;
 username  = prompt("Please enter your name");
 
@@ -10,6 +9,7 @@ socket.on('user-connected', (users)=> {
     joining_div.classList.add('user_join');
     joining_div.innerHTML = `<p><strong> ${users}</strong> has joined</p>`;
     document.getElementById('texts').appendChild(joining_div);
+    console.log("user_join")
 });
 var message = document.getElementById('chat_box');
 message.addEventListener('keyup', function(e){
