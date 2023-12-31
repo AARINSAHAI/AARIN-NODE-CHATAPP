@@ -7,13 +7,12 @@ socket.emit('user-joined', username);
 socket.on('user-connected', (users)=> {
     var joining_div = document.createElement('div');
     joining_div.classList.add('user_join');
-    joining_div.innerHTML = `<center><p><strong> ${users}</strong> has joined</p></center>`;
+    joining_div.innerHTML = `<p><strong> ${users}</strong> has joined</p>`;
     document.getElementById('texts').appendChild(joining_div);
-    console.log("user_join")
+    console.log("user_joined");
 });
 var message = document.getElementById('chat_box');
 message.addEventListener('keyup', function(e){
-    console.log(e);
    var msg_details = {
     name: username,
     textToSend : message.value
